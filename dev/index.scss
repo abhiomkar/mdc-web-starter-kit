@@ -1,0 +1,15 @@
+@import "../../material-components-web/packages/mdc-list/mdc-list";
+@import "../../material-components-web/packages/mdc-menu-surface/mdc-menu-surface";
+@import "../../material-components-web/packages/mdc-menu/mdc-menu";
+@import "../../material-components-web/packages/mdc-select/mdc-select";
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+  <body>
+  <div class="mdc-select custom-enhanced-select-width">
+      <i class="mdc-select__dropdown-icon"></i>
+      <div id="screenshot-selected-text" class="mdc-select__selected-text" role="button" aria-haspopup="listbox"
+            aria-labelledby="screenshot-select-label screenshot-selected-text"></div>
+      <div class="mdc-select__menu mdc-menu mdc-menu-surface custom-enhanced-select-width" role="listbox">
+        <ul class="mdc-list">
+          <li class="mdc-list-item mdc-list-item--selected" aria-selected="true" role="option" data-value=""></li>
+          <li class="mdc-list-item" role="option" data-value="grains">
+            Bread, Cereal, Rice, and Pasta
+          </li>
+          <li class="mdc-list-item" role="option" data-value="vegetables">
+            Vegetables
+          </li>
+          <li class="mdc-list-item" role="option" data-value="fruit">
+            Fruit
+          </li>
+        </ul>
+      </div>
+      <span id="screenshot-select-label" class="mdc-floating-label">Pick a Food Group</span>
+      <div class="mdc-line-ripple"></div>
+    </div>
+    <!-- Run `parcel` (https://parceljs.org) command to bundle this javascript -->
+    <script src="./index.js"></script>
+  </body>
+</html>

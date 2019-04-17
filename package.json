@@ -9,7 +9,9 @@
     "clean": "rm -rf dist/",
     "build": "npm run clean && parcel build ./index.html",
     "deploy": "npm run build && npm run publish",
-    "dev": "parcel ./dev/index.html --open",
+    "dev:watch": "node ../../material-components-web/test/screenshot/run.js build --watch",
+    "dev:serve": "parcel ./dev/index.html --open",
+    "dev": "npm-run-all --parallel dev:watch dev:serve",
     "build:dev": "npm run clean && parcel build ./dev/index.html --no-minify",
     "deploy:dev": "npm run build:dev && npm run publish"
   },

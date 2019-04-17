@@ -6,11 +6,111 @@
 </head>
 
 <body>
-  <div class="mdc-text-field">
-    <input type="text" id="filled-text-field" class="mdc-text-field__input test-text-field__input" />
-    <label class="mdc-floating-label" for="filled-text-field">Label</label>
-    <div class="mdc-line-ripple"></div>
-  </div>
+
+    <div class="mdc-data-table test-data-table">
+        <table class="mdc-data-table__table">
+          <thead>
+            <tr class="mdc-data-table__header-row">
+              <th class="mdc-data-table__header-cell" scope="col">
+                <div class="mdc-checkbox mdc-data-table__row-checkbox">
+                  <input type="checkbox" class="mdc-checkbox__native-control" />
+                  <div class="mdc-checkbox__background">
+                    <svg class="mdc-checkbox__checkmark" viewbox="0 0 24 24">
+                      <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                    </svg>
+                    <div class="mdc-checkbox__mixedmark"></div>
+                  </div>
+                </div>
+              </th>
+              <th class="mdc-data-table__header-cell" scope="col">Status</th>
+              <th class="mdc-data-table__header-cell" scope="col">Signal name</th>
+              <th class="mdc-data-table__header-cell" scope="col">Severity</th>
+              <th class="mdc-data-table__header-cell" scope="col">Stage</th>
+              <th class="mdc-data-table__header-cell" scope="col">Time</th>
+              <th class="mdc-data-table__header-cell" scope="col">Roles</th>
+            </tr>
+          </thead>
+          <tbody class="mdc-data-table__content">
+            <tr class="mdc-data-table__row">
+              <td class="mdc-data-table__cell">
+                <div class="mdc-checkbox mdc-data-table__row-checkbox">
+                  <input type="checkbox" class="mdc-checkbox__native-control" />
+                  <div class="mdc-checkbox__background">
+                    <svg class="mdc-checkbox__checkmark" viewbox="0 0 24 24">
+                      <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                    </svg>
+                    <div class="mdc-checkbox__mixedmark"></div>
+                  </div>
+                </div>
+              </td>
+              <td class="mdc-data-table__cell">Online</td>
+              <td class="mdc-data-table__cell">Arcus watch slowdown</td>
+              <td class="mdc-data-table__cell">Medium</td>
+              <td class="mdc-data-table__cell">Triaged</td>
+              <td class="mdc-data-table__cell mdc-data-table__cell--numeric">0:33</td>
+              <td class="mdc-data-table__cell">Allison Brie</td>
+            </tr>
+            <tr class="mdc-data-table__row mdc-data-table__row--selected" aria-selected="true">
+              <td class="mdc-data-table__cell">
+                <div class="mdc-checkbox mdc-data-table__row-checkbox">
+                  <input type="checkbox" class="mdc-checkbox__native-control" checked />
+                  <div class="mdc-checkbox__background">
+                    <svg class="mdc-checkbox__checkmark" viewbox="0 0 24 24">
+                      <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                    </svg>
+                    <div class="mdc-checkbox__mixedmark"></div>
+                  </div>
+                </div>
+              </td>
+              <td class="mdc-data-table__cell">Offline</td>
+              <td class="mdc-data-table__cell">monarch: prod shared ares-managed-features-provider-heavy</td>
+              <td class="mdc-data-table__cell">Huge</td>
+              <td class="mdc-data-table__cell">Triaged</td>
+              <td class="mdc-data-table__cell mdc-data-table__cell--numeric">0:33</td>
+              <td class="mdc-data-table__cell">Brie Larson</td>
+            </tr>
+            <tr class="mdc-data-table__row mdc-data-table__row--selected" aria-selected="true">
+              <td class="mdc-data-table__cell">
+                <div class="mdc-checkbox mdc-data-table__row-checkbox">
+                  <input type="checkbox" class="mdc-checkbox__native-control" checked />
+                  <div class="mdc-checkbox__background">
+                    <svg class="mdc-checkbox__checkmark" viewbox="0 0 24 24">
+                      <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                    </svg>
+                    <div class="mdc-checkbox__mixedmark"></div>
+                  </div>
+                </div>
+              </td>
+              <td class="mdc-data-table__cell">Online</td>
+              <td class="mdc-data-table__cell">monarch: prod shared ares-managed-features-provider-heavy</td>
+              <td class="mdc-data-table__cell">Minor</td>
+              <td class="mdc-data-table__cell">Not triaged</td>
+              <td class="mdc-data-table__cell mdc-data-table__cell--numeric">0:33</td>
+              <td class="mdc-data-table__cell">Jeremy Lake</td>
+            </tr>
+            <tr class="mdc-data-table__row">
+              <td class="mdc-data-table__cell">
+                <div class="mdc-checkbox mdc-data-table__row-checkbox">
+                  <input type="checkbox" class="mdc-checkbox__native-control" />
+                  <div class="mdc-checkbox__background">
+                    <svg class="mdc-checkbox__checkmark" viewbox="0 0 24 24">
+                      <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                    </svg>
+                    <div class="mdc-checkbox__mixedmark"></div>
+                  </div>
+                </div>
+              </td>
+              <td class="mdc-data-table__cell">Online</td>
+              <td class="mdc-data-table__cell">Arcus watch slowdown</td>
+              <td class="mdc-data-table__cell">Negligible</td>
+              <td class="mdc-data-table__cell">Triaged</td>
+              <td class="mdc-data-table__cell mdc-data-table__cell--numeric">0:33</td>
+              <td class="mdc-data-table__cell">Angelina Cheng</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
 
   <!-- Run `parcel` (https://parceljs.org) command to bundle this javascript -->
   <script src="./index.js"></script>
